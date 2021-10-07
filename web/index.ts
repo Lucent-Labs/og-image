@@ -142,12 +142,12 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'MerchJar', value: 'https://merchjar.com/wp-content/uploads/2021/02/merchjar_logo_final_whiteBG.svg' },
+    { text: 'MerchJar', value: 'https://raw.githubusercontent.com/Lucent-Labs/merchjar-contentful/1bedd497d483065c0e40bbcd4e8928d1f027b496/public/images/merchjar_logo_final_whiteBG.svg?token=AD7WW6XIVRBAVSKQW2MD57TBL35JY' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
 
-    { text: 'MerchJar', value: 'https://merchjar.com/wp-content/uploads/2021/02/merchjar_logo_final_whiteBG.svg' },
+    { text: 'MerchJar', value: 'https://raw.githubusercontent.com/Lucent-Labs/merchjar-contentful/1bedd497d483065c0e40bbcd4e8928d1f027b496/public/images/merchjar_logo_final_whiteBG.svg?token=AD7WW6XIVRBAVSKQW2MD57TBL35JY' },
 ];
 
 const widthOptions = [

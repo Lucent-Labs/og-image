@@ -52,8 +52,8 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://merchjar.com/wp-content/uploads/2021/02/merchjar_logo_final_whiteBG.svg'
-        : 'https://merchjar.com/wp-content/uploads/2021/02/merchjar_logo_final_whiteBG.svg';
+        ? 'https://raw.githubusercontent.com/Lucent-Labs/merchjar-contentful/1bedd497d483065c0e40bbcd4e8928d1f027b496/public/images/merchjar_logo_final_whiteBG.svg?token=AD7WW6XIVRBAVSKQW2MD57TBL35JY'
+        : 'https://raw.githubusercontent.com/Lucent-Labs/merchjar-contentful/1bedd497d483065c0e40bbcd4e8928d1f027b496/public/images/merchjar_logo_final_whiteBG.svg?token=AD7WW6XIVRBAVSKQW2MD57TBL35JY';
 
     if (!images || !images[0]) {
         return [defaultImage];
